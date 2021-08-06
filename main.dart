@@ -1,4 +1,4 @@
-import 'package:chatsooon/passwordpage.dart';
+
 import 'package:flutter/material.dart';
 import 'splashscreen.dart';
 import 'package:flutter/cupertino.dart';
@@ -27,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-  home: SplashScreen(),
+  home: SplashScreen(),              //calling splash screen widget
     );
   }
 }
